@@ -57,7 +57,7 @@
   margin: auto;
   color: gray;
   font-weight: bolder;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: #ffdddd;
 }
 
@@ -76,7 +76,6 @@
 
 .container1 p {
   width: 80%;
-  border: 1px solid pink;
   line-height: 2;
   display: block;
   margin: auto;
@@ -153,6 +152,7 @@
   display: flex;
   background-color: #fdd;
   justify-content: center;
+  gap: 10%;
 }
 
 .half1,
