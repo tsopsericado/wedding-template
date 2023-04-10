@@ -1,5 +1,5 @@
 body {
-  background-color: #dfb5bc78;
+  border-color: #ffdddd;
   margin: 0;
 }
 
@@ -9,7 +9,8 @@ body {
   flex-direction: row;
   justify-content: space-around;
   color: black;
-  background-color:  #f6eded8f;
+  background-color:
+   #f6eded8f;
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -149,6 +150,7 @@ body {
 }
 
 .container3 img {
+  filter: grayscale(70%);
   width: 70%;
   margin: 32px 0;
   border-radius: 4px;
@@ -174,6 +176,7 @@ body {
 
 .container5 .footer {
   text-align: center;
+  flex-direction: column;
   margin: 0 200px;
   padding: 64px;
   padding-top: 64px;
@@ -186,7 +189,6 @@ body {
 
 .container5 .btn {
   color: #fff;
-  background-color: red;
   padding: 12px 24px;
   font-size: 18px;
   display: inline-block;
@@ -209,7 +211,7 @@ body {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
   .firstpic {
     height: 700px;
   }
@@ -236,7 +238,12 @@ body {
   }
 
   .container5 .footer {
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 
   .half1,
@@ -255,5 +262,9 @@ body {
     font-size: 40px;
     font-weight: 100;
     margin-top: 10px;
+  }
+
+  .navbar {
+    display: none;
   }
 }
