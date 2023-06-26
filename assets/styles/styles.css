@@ -1,0 +1,268 @@
+body {
+  border-color: #fdd;
+  margin: 0;
+}
+
+.navbar {
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: black;
+  background-color: #f6eded8f;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: gray;
+}
+
+.container {
+  background-image: url("../images/wedding-cop.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: pink;
+  z-index: -1;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wed-img {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px 0;
+  font-weight: 150;
+  color: white;
+}
+
+.container1 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin: auto;
+  color: gray;
+  font-weight: bolder;
+  font-family: Raleway, sans-serif;
+  background-color: #fdd;
+}
+
+.container1 img {
+  width: 80%;
+  margin: 32px 0;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+.container1-image {
+  max-width: 950px;
+  padding-inline: 30px;
+  margin: auto;
+}
+
+.container1 p {
+  width: 80%;
+  line-height: 2;
+  display: block;
+  margin: auto;
+}
+
+.container1 .btn {
+  color: #fff;
+  background-color: #000;
+  padding: 12px 24px;
+  font-size: 18px;
+  display: inline-block;
+  overflow: hidden;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.container2 {
+  background-image: url("../images/images.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 700px;
+  text-align: center;
+  color: white;
+  background-color: pink;
+  z-index: -1;
+}
+
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 150;
+  color: #fff;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px 0;
+}
+
+.centered1 .subheader {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.centered1 .subheader h4 {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.container3 {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: auto;
+  color: gray;
+  font-weight: bolder;
+  font-family: Raleway, sans-serif;
+  background-color: #fdd !important;
+}
+
+.container3 img {
+  filter: grayscale(70%);
+  width: 70%;
+  margin: 32px 0;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+.container4 {
+  display: flex;
+  background-color: #fdd;
+  justify-content: center;
+  gap: 10%;
+}
+
+.half1,
+.half2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.container5 {
+  background-color: gainsboro;
+}
+
+.container5 .footer {
+  text-align: center;
+  flex-direction: column;
+  margin: 0 200px;
+  padding: 64px;
+  padding-top: 64px;
+  box-sizing: inherit;
+  display: block;
+  letter-spacing: 4px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.container5 .btn {
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 18px;
+  display: inline-block;
+  overflow: hidden;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.footer-marg {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 700px) {
+  .firstpic {
+    height: 700px;
+  }
+
+  .secondpic {
+    height: 700px;
+  }
+
+  .container1-image {
+    padding-inline: 10px;
+    margin-right: 13px;
+    width: 93%;
+  }
+
+  .container3 img {
+    width: 95%;
+    height: 300px;
+  }
+
+  .container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container5 .footer {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .half1,
+  .half2 {
+    text-align: center;
+  }
+
+  .container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: pink;
+  }
+
+  .centered1 .subheader {
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 10px;
+  }
+
+  .navbar {
+    display: none;
+  }
+}
