@@ -1,5 +1,5 @@
 body {
-  border-color: #ffdddd;
+  border-color: #fdd;
   margin: 0;
 }
 
@@ -9,8 +9,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   color: black;
-  background-color:
-   #f6eded8f;
+  background-color: #f6eded8f;
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -243,7 +242,6 @@ body {
     align-self: center;
     margin-left: auto;
     margin-right: auto;
-
   }
 
   .half1,
